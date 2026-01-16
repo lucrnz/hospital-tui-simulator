@@ -18,11 +18,13 @@ docs/TYPESCRIPT.md  ← Strict TS guidelines
 
 HospQueue is a terminal-based queue manager. It targets small hospitals and clinics to efficiently manage patient flow and reduce waiting room chaos. It replaces traditional paper tickets and manual whiteboards with a simple, real-time digital queue system that tracks patients from registration to discharge. Staff log in securely with role-based access—receptionists handle registrations, doctors manage consultations, and admins oversee everything—ensuring smooth coordination while maintaining clear separation of responsibilities.
 
+## MVP: App Base Features - Remove this section after implementing
+
+The app's core features include fast patient registration with auto-generated ticket numbers and adjustable priority levels (low, medium, high) to handle urgent cases first. A central live queue view displays waiting patients sorted by priority and arrival time, showing key details like ticket number, name, wait time, and assigned doctor. Receptionists can call the next patient, assign doctors, or update statuses (waiting, consulting, discharged), while doctors see their assigned patients and can add notes or mark consultations complete. A dedicated full-screen display mode turns any monitor into a waiting room board, showing the current queue, a large clock, and gentle notifications when patients are called—all updating automatically to keep everyone informed and minimize confusion.
+
 ## Tech Stack Notes
 
 - Prisma ORM with the `@prisma/adapter-better-sqlite3` SQLite driver adapter is the standard database setup for local development.
-
-The app's core features include fast patient registration with auto-generated ticket numbers and adjustable priority levels (low, medium, high) to handle urgent cases first. A central live queue view displays waiting patients sorted by priority and arrival time, showing key details like ticket number, name, wait time, and assigned doctor. Receptionists can call the next patient, assign doctors, or update statuses (waiting, consulting, discharged), while doctors see their assigned patients and can add notes or mark consultations complete. A dedicated full-screen display mode turns any monitor into a waiting room board, showing the current queue, a large clock, and gentle notifications when patients are called—all updating automatically to keep everyone informed and minimize confusion.
 
 ## Ink TUI Reminder
 

@@ -1,6 +1,6 @@
 # hospital-tui-simulator
 
-TODO: Update the readme - it should contain a description of the app and features, also a tutorial on how to get the app started
+A terminal-based hospital queue manager that speeds up patient registration, prioritizes urgent cases, and keeps staff aligned with a live queue, doctor assignments, and status updates from intake to discharge.
 
 ## Install
 

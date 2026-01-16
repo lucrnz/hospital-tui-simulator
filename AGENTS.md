@@ -79,6 +79,10 @@ The app's core features include fast patient registration with auto-generated ti
 - Snapshot-like output comparisons should rely on `lastFrame()`.
 - Keep tests deterministic; avoid time-based assertions.
 
+## Commits
+
+- Use Conventional Commits for commit messages.
+
 ## Dates
 
 **Don't assume current year** (training cutoff issue). Run `date "+%Y-%m-%d"` if date unknown.
